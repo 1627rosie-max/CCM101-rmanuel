@@ -1,4 +1,4 @@
-# Cloud Platform Recommendation Challenge
+# Checkpoint 4 – Cloud Platform Recommendation Challenges
 
 ## Client A – Startup Company
 
@@ -56,3 +56,14 @@ AWS is recommended because the company needs highly available infrastructure and
 * Elastic Load Balancing – Distributes application traffic
 * Amazon EC2 Auto Scaling – Automatically adjusts computing capacity
 
+
+# Checkpoint 6 – Multi-Cloud Decision Matrix
+
+| Business Requirement        | Recommended Platform        | Justification                                                                                               |
+| --------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Startup Company**         | AWS                         | AWS offers many cloud services and can support a startup as it grows.                                       |
+| **Enterprise Organization** | AWS                         | AWS provides a wide range of services suitable for large and complex organizations.                         |
+| **Microsoft Environment**   | Microsoft Azure             | Azure works well with Microsoft technologies such as Windows Server, Microsoft 365, and Active Directory.   |
+| **AI / Machine Learning**   | Google Cloud Platform (GCP) | GCP provides strong Artificial Intelligence and Machine Learning capabilities.                              |
+| **Kubernetes Deployment**   | Google Cloud Platform (GCP) | GCP provides Google Kubernetes Engine (GKE) for managing Kubernetes applications.                           |
+| **Global Web Application**  | AWS                         | AWS provides global infrastructure and scalable services suitable for applications serving users worldwide. |
