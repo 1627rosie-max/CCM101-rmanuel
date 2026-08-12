@@ -32,5 +32,3 @@ The **Azure Portal** is a web-based console used to create, manage, and monitor 
 * Enterprise applications
 * Identity management
 * Database and web applications
-![Azure Homepage](screenshots/azure-homepage.png)
-
