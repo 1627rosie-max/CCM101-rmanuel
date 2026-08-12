@@ -29,7 +29,4 @@ technology industry.
 - Develop my knowledge of cloud computing and Linux.
 - Gain practical experience in IT infrastructure.
 - Improve my problem-solving skills.
-- Prepare myself for a successful career in Information Technology.
-**Laboratory:** Laboratory 01 – Welcome to the Cloud  
-**Instructor:** Jenkielyn Torres  
-**Year/Block:** 4th Year – Block A
+- Prepare myself for a successful career in Information Technology
