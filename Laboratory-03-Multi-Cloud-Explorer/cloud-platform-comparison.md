@@ -1,3 +1,5 @@
+# Checkpoint 3 – Compare the Major Cloud Platforms
+
 # Cloud Platform Comparison
 
 ## Comparison of AWS, Microsoft Azure, and Google Cloud Platform
@@ -32,3 +34,13 @@
 
 **I would personally choose Google Cloud Platform (GCP).** I would choose it because of its strong capabilities in Artificial Intelligence, Machine Learning, and Kubernetes, which are important technologies for modern cloud applications and future IT development.
 
+
+# Checkpoint 5 – Match the Cloud Services
+
+| Service Category        | AWS        | Azure                          | GCP                            |
+| ----------------------- | ---------- | ------------------------------ | ------------------------------ |
+| **Virtual Machine**     | Amazon EC2 | Azure Virtual Machines         | Google Compute Engine          |
+| **Object Storage**      | Amazon S3  | Azure Blob Storage             | Google Cloud Storage           |
+| **Identity Management** | AWS IAM    | Microsoft Entra ID             | Cloud IAM                      |
+| **SQL Database**        | Amazon RDS | Azure SQL Database             | Cloud SQL                      |
+| **Kubernetes**          | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
