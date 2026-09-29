@@ -1,1 +1,40 @@
+services:
 
+  mysql:
+    image: mysql:8.0
+    container_name: ccm101-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress_password
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - ccm101-network
+
+  wordpress:
+    image: wordpress:latest
+    container_name: ccm101-wordpress
+    restart: unless-stopped
+    depends_on:
+      - mysql
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: mysql:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress_password
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress_data:/var/www/html
+    networks:
+      - ccm101-network
+
+networks:
+  ccm101-network:
+
+volumes:
+  wordpress_data:
+  db_data:
