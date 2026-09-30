@@ -12,10 +12,10 @@ The project also implements persistent storage, firewall protection using UFW, a
 
 ## Group Members
 
-1. **MANUEL, ROSEBETH B.** – Leader, Developer, Designer
-2. **MORALES, EINSTEIN C.** – Developer, Researcher
-3. **DIÑO, CHRISTINE SAIYAN C.** – Researcher, Presenter
-4. **PALABAY, LYRA ANN A.** – Designer, Presenter
+1. **MANUEL, ROSEBETH B.** 
+2. **MORALES, EINSTEIN C.** 
+3. **DIÑO, CHRISTINE SAIYAN C.**
+4. **PALABAY, LYRA ANN A.** 
 
 ---
 
@@ -39,7 +39,7 @@ The project also implements persistent storage, firewall protection using UFW, a
 
 The following diagram shows the complete infrastructure architecture of the project, including the Windows host machine, Oracle VirtualBox, Ubuntu Server, UFW firewall, Docker containers, persistent storage, and automated backup process.
 
-![CCM101 Enterprise Cloud Architecture](CCM%20Diargram.png)
+![CCM101 Enterprise Cloud Architecture](architecture-diagram.png)
 
 ---
 
