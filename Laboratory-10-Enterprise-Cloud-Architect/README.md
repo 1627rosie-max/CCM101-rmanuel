@@ -39,7 +39,7 @@ The project also implements persistent storage, firewall protection using UFW, a
 
 The following diagram shows the complete infrastructure architecture of the project, including the Windows host machine, Oracle VirtualBox, Ubuntu Server, UFW firewall, Docker containers, persistent storage, and automated backup process.
 
-![CCM101 Enterprise Cloud Architecture]("CCM Diargram.png")
+![CCM101 Enterprise Cloud Architecture](CCM%20Diargram.png)
 
 ---
 
