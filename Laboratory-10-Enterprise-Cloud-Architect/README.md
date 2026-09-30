@@ -384,7 +384,7 @@ Before performing a recovery, make sure the Docker services are properly stopped
 
 Persistent Docker volumes should also be preserved unless a complete reset is intentionally required.
 
-Project Files
+## Project Files
 
 The GitHub repository contains the following project files:
 
@@ -396,7 +396,8 @@ Laboratory-10-Enterprise-Cloud-Architect/
 ├── automation-script.sh
 ├── operational-manual.md
 └── final-reflection.md
-README.md
+
+## README.md
 
 Contains the project overview, architecture, deployment procedures, security configuration, backup automation, monitoring, and troubleshooting information.
 
@@ -420,7 +421,7 @@ final-reflection.md
 
 Contains the group's reflection about the project, implementation process, challenges, and lessons learned.
 
-Documentation
+## Documentation
 
 The project includes an operational manual containing:
 
@@ -438,7 +439,7 @@ Recovery procedures
 Verification screenshots
 Operational Checklist
 
-Before considering the deployment complete, verify the following:
+## Before considering the deployment complete, verify the following:
 
  Ubuntu Server installed and running in VirtualBox
  Docker installed
@@ -460,7 +461,8 @@ Before considering the deployment complete, verify the following:
  Project documentation completed
  Architecture diagram included
  Project files uploaded to GitHub
-Conclusion
+ 
+## Conclusion
 
 The CCM101 Enterprise Cloud Architect project demonstrates the deployment of a multi-tier web application using virtualization, containerization, persistent storage, firewall security, and automated database backup.
 
